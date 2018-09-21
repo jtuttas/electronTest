@@ -12,6 +12,7 @@ function down() {
     document.querySelector("#out").innerHTML = "" + c.getValue();
 }
 var c = new counter_1.counter();
-document.querySelector('#btnup').addEventListener('click', up);
+var b1 = document.querySelector('#btnup');
+b1.addEventListener('click', up);
 document.querySelector('#btndown').addEventListener('click', down);
 //# sourceMappingURL=render.js.map

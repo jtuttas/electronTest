@@ -13,5 +13,6 @@ function down(): void {
 }
 
 let c:counter=new counter();
-document.querySelector('#btnup').addEventListener('click', up);
+let b1:HTMLButtonElement = document.querySelector('#btnup');
+b1.addEventListener('click', up);
 document.querySelector('#btndown').addEventListener('click', down);
