@@ -10,7 +10,9 @@ export class counter {
     }
 
     public dec():void {
-        this.value--;
+        if (this.value>0) {
+            this.value--;
+        }
     }
 
     public getValue():number {

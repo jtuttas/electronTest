@@ -8,7 +8,9 @@ var counter = /** @class */ (function () {
         this.value++;
     };
     counter.prototype.dec = function () {
-        this.value--;
+        if (this.value > 0) {
+            this.value--;
+        }
     };
     counter.prototype.getValue = function () {
         return this.value;
