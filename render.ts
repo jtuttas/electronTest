@@ -1,5 +1,6 @@
 import { counter } from "./counter";
 
+
 function up(): void {
     console.log("up");
     
@@ -20,6 +21,7 @@ function down(): void {
         document.querySelector("#out").classList.remove("red");
         document.querySelector("#out").classList.add("green");
     }
+    
 }
 
 let c:counter=new counter();

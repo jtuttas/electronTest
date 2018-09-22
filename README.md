@@ -1,6 +1,8 @@
 # Electron Test
 Ein einfacher Test mit Visual Studio Code und electron in Typescript
 
+![counter](counter.gif)
+
 ## Initialisierung und Starten der app
 
 Initialisieren der App (also laden der Abhängigkeiten ) über..
